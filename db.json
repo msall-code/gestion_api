@@ -1,32 +1,54 @@
-[
-  {
-    "id": 1,
-    "title": "Create Flutter Project",
-    "description": "Set up a new Flutter project for your app.",
-    "completed": false
-  },
-  {
-    "id": 2,
-    "title": "Design UI",
-    "description": "Design the user interface for your Flutter app.",
-    "completed": false
-  },
-  {
-    "id": 3,
-    "title": "Implement Task List",
-    "description": "Create a task list view in your Flutter app.",
-    "completed": false
-  },
-  {
-    "id": 4,
-    "title": "Add Task Detail Page",
-    "description": "Implement a task detail page for each task in the list.",
-    "completed": false
-  },
-  {
-    "id": 5,
-    "title": "Add Task Editing",
-    "description": "Allow users to edit and update task details.",
-    "completed": false
-  }
-]
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Produit A",
+      "description": "Description du produit A",
+      "quantity": 10,
+      "unitPrice": 15.99,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Produit B",
+      "description": "Description du produit B",
+      "quantity": 5,
+      "unitPrice": 25.49,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "title": "Produit C",
+      "description": "Description du produit C",
+      "quantity": 20,
+      "unitPrice": 5.99,
+      "categoryId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "label": "Catégorie 1"
+    },
+    {
+      "id": 2,
+      "label": "Catégorie 2"
+    },
+    {
+      "id": 3,
+      "label": "Catégorie 3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "abcd"
+    }
+  ]
+}
